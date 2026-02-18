@@ -70,7 +70,7 @@ export default function Home() {
               size="lg" 
               className="h-12 px-8 rounded-full bg-white text-black hover:bg-gray-200 font-semibold text-base shadow-xl shadow-white/5 w-full sm:w-auto"
               onClick={() => {
-                window.open('https://github.com/desconhecidozfc-hash/lad3lta/releases/download/v1.0.0/Delta-AI-Setup-1.0.0.exe', '_blank');
+                window.location.href = '/Delta-AI-Setup-1.0.0.exe';
               }}
             >
               <Download className="mr-2 h-4 w-4" />
@@ -521,7 +521,7 @@ export default function Home() {
               size="lg" 
               className="h-12 px-8 rounded-full bg-white text-black hover:bg-gray-200 font-bold shadow-xl shadow-white/5"
               onClick={() => {
-                window.open('https://github.com/desconhecidozfc-hash/lad3lta/releases/download/v1.0.0/Delta-AI-Setup-1.0.0.exe', '_blank');
+                window.location.href = '/Delta-AI-Setup-1.0.0.exe';
               }}
             >
               Baixar para Windows
