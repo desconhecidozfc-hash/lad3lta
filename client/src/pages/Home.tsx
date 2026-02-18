@@ -540,9 +540,9 @@ export default function Home() {
           </div>
           <div className="flex flex-wrap justify-center gap-x-8 gap-y-2 text-xs text-zinc-500 font-mono uppercase tracking-widest">
             <span>Instalação rápida</span>
-            <span>•</span>
+            <span className="hidden md:inline">•</span>
             <span>Configuração simples</span>
-            <span>•</span>
+            <span className="hidden md:inline">•</span>
             <span>Suporte completo</span>
           </div>
           <div className="mt-8 text-center text-xs text-zinc-600">
